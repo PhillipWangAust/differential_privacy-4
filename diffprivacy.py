@@ -9,9 +9,7 @@ import matplotlib.pyplot as plt
 import sys
 import pandas as pd
 import numpy as np
-def laplaceMechanism(x, epsilon):
-    x +=  np.random.laplace(0, epsilon, 1)[0]
-    return x
+
 
 def Differential_Privacy(datapath,e):
     '''
